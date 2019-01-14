@@ -1,3 +1,6 @@
+##### Initial install and configuration for IT 2750
+
+
 ### Download Visual Studio Code
 Download Visual Studio Code from https://code.visualstudio.com/download
 
