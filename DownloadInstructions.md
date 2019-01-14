@@ -15,6 +15,21 @@ First copy your repository URL. For example, our class repository has the URL: h
 git clone https://github.com/jamesleasure/2019SpringIT2750
 ```
 
+### Configure user name and email address for local git cache
+Change directories into the folder that was just created for your cloned repository. Example:
+```
+cd repository_folder_name
+```
+Now, use the following commands to configure the local cache for your repository. This is the email and name that will be logged with any commits that you push to the remote repository.
+```
+git config --global user.name "John Doe"
+git config --global user.email "johndoe@example.com"
+```
+You can double-check to make sure the settings were applied using the following command:
+```
+git config --list
+```
+
 ### Download / Pull Any Changes that were Made to the Repository Outside of your Local Copy
 If you're opening a new command prompt window in the future, you'll always have to change the current working directory to the folder that you cloned your repository to. 
 ```
