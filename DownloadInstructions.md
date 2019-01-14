@@ -1,4 +1,4 @@
-# Day 1 - Visual Studio Code, Python, and GitHub Setup for IT 2750
+# Visual Studio Code, Python, and GitHub Setup for IT 2750
 
 
 ### Download Visual Studio Code
