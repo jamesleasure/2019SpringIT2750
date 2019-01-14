@@ -48,7 +48,7 @@ git add .
 ```
 Now, commit all of the files that have changed or were added.
 ```
-git commit -m "Commit Mesage"
+git commit -m "Commit Message"
 ```
 Now, push (upload) all files that were changed to your remote repository.
 ```
