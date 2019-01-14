@@ -1,4 +1,4 @@
-##### Initial install and configuration for IT 2750
+# Initial install and configuration for IT 2750
 
 
 ### Download Visual Studio Code
