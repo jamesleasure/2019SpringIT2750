@@ -6,6 +6,7 @@ Introduction to concepts important for popular cybersecurity scripting languages
 Lecture: 2 hours.  
 Laboratory: 2 hours  
 Credits: 3 Credits  
+  
 Prerequisite(s): IT-1050 Programming Logic.  
 
 ## Lab Assignments
