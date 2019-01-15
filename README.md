@@ -4,5 +4,6 @@
 [Lab 1](Lab1.md)
 
 ## In-Class Examples
+[Week 1, Class 1](Guides/InClass1.py)
 
 ## How-To
