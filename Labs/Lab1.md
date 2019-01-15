@@ -14,4 +14,3 @@
 7. Create a file called drawCircle.py. In drawCircle, use Listing 1.7 to draw three circles.
 8. Create a file called loops.py. In loops.py, output the following sequences: 1) 1-10 increment by 2) 20-15 decrement by 1, and 3) 0-100 increment by 2. 
 
-*Feel free to a short list of the files in your Lab 1 folder and with a brief description and links. It's not required but would be nice for you if you want to refer back to this later.*
