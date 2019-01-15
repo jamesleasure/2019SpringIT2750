@@ -6,6 +6,9 @@ Download Visual Studio Code from https://code.visualstudio.com/download
 
 Once installed, make sure Microsoft's Python extension is installed. Click View -> Extensions and search for Python. 
 
+### Install Python
+Download and install the latest version of Python from https://www.python.org/downloads/(https://www.python.org/downloads/).
+
 ### Install GitHub
 Install the GitHub command line tool. https://git-scm.com/
 
