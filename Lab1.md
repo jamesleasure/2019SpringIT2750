@@ -1,6 +1,6 @@
 ## IT 2750 - Lab 1
 
-Use Chapter 1 to complete this lab. 
+*Use Chapter 1 to complete this lab.*
 
 1. Create a folder in your repository called Lab1.
 2. In the Lab 1 folder add a file called README.md.
