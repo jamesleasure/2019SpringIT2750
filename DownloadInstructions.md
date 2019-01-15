@@ -10,7 +10,9 @@ Once installed, make sure Microsoft's Python extension is installed. Click View 
 Install the GitHub command line tool. https://git-scm.com/
 
 ### Clone your GitHub repository
-Open a command prompt. Press the Windows key and search for "cmd". Press enter to open the command prompt. From here we'll enter command prompt calls to clone your repository.
+First change to the directory where you want to store a local copy of your source code files: Open a command prompt. Press the Windows key and search for "cmd". Press enter to open the command prompt. From here we'll enter command prompt calls to clone your repository.
+
+Note: cloning will create a copy of your remote repository on your computer. It will create a folder with the same name as your repository.
 
 First copy your repository URL. For example, our class repository has the URL: https://github.com/jamesleasure/2019SpringIT2750. I'll use this in place of your repository link for the following examples.
 
@@ -23,7 +25,7 @@ Change directories into the folder that was just created for your cloned reposit
 ```
 cd repository_folder_name
 ```
-Now, use the following commands to configure the local cache for your repository. This is the email and name that will be logged with any commits that you push to the remote repository.
+Now, use the following commands to configure cached settings for your repository. This is the email and name that will be logged with any commits to the repository.
 ```
 git config --global user.name "John Doe"
 git config --global user.email "johndoe@example.com"
