@@ -9,7 +9,9 @@
     1. What are primitive elements?
     2. How can we combine primitive elements?
     3. What number is represented by 319e5?
-5. Create a new file called sequence1.py. In sequence1.py, answer problem 1.30: Use the range function to create a sequence of the multiples of 5 up to 50.
-6. Create a file called sequence2.py. In sequence2.py, answer problem 1.31: Use the range function to create a sequence of numbers from −10 to 10.
+5. Create a new file called sequence1.py. In sequence1.py, answer problem 1.30: Use the range function to create and output a sequence of the multiples of 5 up to 50.
+6. Create a file called sequence2.py. In sequence2.py, answer problem 1.31: Use the range function to create and output a sequence of numbers from −10 to 10.
 7. Create a file called drawCircle.py. In drawCircle, use Listing 1.7 to draw three circles.
 8. Create a file called loops.py. In loops.py, output the following sequences: 1) 1-10 increment by 2) 20-15 decrement by 1, and 3) 0-100 increment by 2. 
+
+*Feel free to a short list of the files in your Lab 1 folder and with a brief description and links. It's not required but would be nice for you if you want to refer back to this later.*
