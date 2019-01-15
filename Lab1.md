@@ -1,5 +1,5 @@
 ## IT 2750 - Scripting for Cybersecurity
-## Lab 1
+## **Lab 1**
 
 Use Chapter 1 to complete this lab. 
 
