@@ -9,6 +9,11 @@ Credits: 3 Credits
   
 Prerequisite(s): IT-1050 Programming Logic.  
 
+## Book
+Introduction to Scripting: National CyberWatch Center   
+Bradley N. Miller, David L. Ranum  
+ISBN: 9781284108071
+
 ## Lab Assignments
 [Lab 1](Labs/Lab1.md)
 
