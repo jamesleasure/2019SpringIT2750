@@ -3,7 +3,7 @@
 *Use Chapter 2 to complete this lab.*
 
 1. Create a folder in your repository called Lab2.
-2. In the Lab 1 folder add a file called README.md.
+2. In the Lab 2 folder add a file called README.md. Note: create all of the following files in the lab 2 folder.
 3. In your README.md file, describe - in a few sentences - what we've covered in lesson 2. 
 4. Again, in README.md, answer the following questions:
 5. Create a file called archimedes.py. In archimedes.py, implement the archimedes in Listings 2.2 and 2.4 in the chapter. 2.7 Modify the archimedes function to take the radius as a parameter. Can you get a better answer more quickly using a larger circle?
