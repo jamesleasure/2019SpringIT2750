@@ -36,5 +36,5 @@ def encrypt(plainText ,key):
     cipherText = oddChars + evenChars  
     return cipherText  
   ```
-  5. Create a file called myCipher. Implement one of the encryption algorithms using these files. You should have a method called encrypt and a method called decrypt at the minimum in this file. 
-  6. Create a file called testEncrypt.py. In testEncrypt, test (and output the results) of both encrypt and decrypt 3 times.
+  5. Create a file called myCrypto.py. Implement one of the encryption algorithms using these files. Make sure you add comments indicating the type of encryption algorithm used. You should have a method called encrypt and a method called decrypt at the minimum in this file. 
+  6. Create a file called testCrypto.py. In testCrypto.py, test (and output the results) of both encrypt and decrypt 3 times.
