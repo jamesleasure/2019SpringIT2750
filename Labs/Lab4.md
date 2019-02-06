@@ -9,6 +9,6 @@
 5. Create a file called lists.py. Complete the following in lists.py:
      1. Create a list by calling the list() function with the following string "The quick brown fox jumps over the lazy dog." 
      2. Sort the list.
-     3. Create a function called getMostFrequent() that outputs which letter(s) (excluding spaces) occurs the most often in the sentence. Indicate which letter and the frequency of the occurrance in README.md.
+     3. Create a function called getMostFrequent() that outputs which letter(s) (excluding spaces) occurs the most often in the sentence. Indicate which letter and the in README.md.
      4. Create another function called uniqueLetters() that creates a list of all unique characters in the string/list. Then it should ouput each unique character in order.
 6. When complete, push your Lab4 folder to GitHub. Make sure it pushed successfully and then post the URL to your folder in comments sections of the Lab 4 Blackboard assignment.
