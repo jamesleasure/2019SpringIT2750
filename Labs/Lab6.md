@@ -10,4 +10,4 @@
 6. Complete exercise 7.2: Write a function that takes a string as a parameter and returns the number of spaces in the string. This function must use a while loop.
 7. Complete exercise 7.3: Write a function that asks the user to enter exam scores one at a time until the word stop is entered. When stop is entered, the program should compute the average of the scores.
 6. Complete exercise 7.4: Write a function that takes a string as a parameter and returns True if the string is a palindrome, and False otherwise. This function should use a while loop. Hint: A palindrome is a word that is spelled the same forward and backward.
-7. When complete, push your Lab4 folder to GitHub. Make sure it pushed successfully and then post the URL to your folder in comments sections of the Lab 4 Blackboard assignment.
+7. When complete, push your Lab 6 files to GitHub. Make sure it pushed successfully and then post the URL to your folder in comments sections of the Lab 6 Blackboard assignment folder.
