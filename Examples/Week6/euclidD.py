@@ -11,3 +11,4 @@ def euclidD(point1, point2):
 
 print(euclidD([34, 78], [189, 211]))
 print(euclidD([100023, 101022], [100024, 101023]))
+print(euclidD([13,14,15], [12,13,14]))

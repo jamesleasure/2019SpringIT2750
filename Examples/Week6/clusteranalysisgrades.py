@@ -2,6 +2,8 @@ import random
 import math
 import os 
 
+
+
 currentPath = os.path.dirname(os.path.realpath(__file__)) + "/"
 
 def euclidD(point1, point2):
@@ -107,6 +109,8 @@ def createClusters(k, centroids, datadict, repeats):
     return clusters
 
 
+
+
 newcurrentPath = os.path.dirname(os.path.realpath(__file__)) + "/"
 examsFile = newcurrentPath + "cs150exams.txt"
 dd=readFile(examsFile)
@@ -114,5 +118,5 @@ dd=readFile(examsFile)
 # STEP 2 - See the algortithm fro createCentroids() to see the details for step 2.
 c=createCentroids(5,dd)
 
-cl=createClusters(5,c,dd,9)
+cl=createClusters(5,c,dd,105)
 print(cl)
