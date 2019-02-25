@@ -8,6 +8,7 @@ def railBreak(cipherText):
     bestGuess = "No words found in dictionary"
     for i in range (1, cipherLen +1):
         words = railDecrypt(cipherText,i)
+        print(words)
         goodCount = 0
         for w in words :
             if w in wordDict:
@@ -15,7 +16,7 @@ def railBreak(cipherText):
         if goodCount > maxGoodSoFar :
             maxGoodSoFar = goodCount
             bestGuess = " ".join(words)
-    print("Best Guess" + bestGuess)
+    print("Best Guess: " + bestGuess)
     return bestGuess
 
 def railDecrypt(cipherText, numRails):
