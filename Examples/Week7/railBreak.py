@@ -1,7 +1,5 @@
 import os 
 
-currentPath = os.path.dirname(os.path.realpath(__file__)) + "/"
-
 def railBreak(cipherText):
     currentPath = os.path.dirname(os.path.realpath(__file__)) + "/"
     wordDict = createWordDict(currentPath + 'wordlist.txt')
