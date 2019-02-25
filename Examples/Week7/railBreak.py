@@ -15,7 +15,17 @@ def railBreak(cipherText):
         if goodCount > maxGoodSoFar :
             maxGoodSoFar = goodCount
             bestGuess = " ".join(words)
+    print("Best Guess" + bestGuess)
     return bestGuess
+
+def railDecrypt(cipherText, numRails):
+    railLen = len(cipherText) // numRails
+    solution = ''
+    for col in range(railLen):
+        for rail in range(numRails):
+            nextLetter = (col + rail * railLen)
+            solution = solution + cipherText[nextLetter]
+    return solution.split()
 
 def createWordDict(dname):
     myDict = {}
@@ -24,3 +34,5 @@ def createWordDict(dname):
         myDict[line [: -1]] = True
     return myDict
 
+
+railBreak("n oci mreidontoowp mgorw")
