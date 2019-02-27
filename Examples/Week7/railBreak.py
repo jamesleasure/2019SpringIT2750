@@ -26,11 +26,8 @@ def railDecrypt(cipherText, numRails):
     solution = ''
     for col in range(railLen):
         for rail in range(numRails):
-            #print(f"col: {col} rail: {rail} railLen: {railLen}")
             nextLetter = (col + rail * railLen)
-            #print(f"nextLetter: {nextLetter}")
             solution = solution + cipherText[nextLetter]
-            #print(f"solution: {solution}")
     return solution.split()
 
 def createWordDict(dname):

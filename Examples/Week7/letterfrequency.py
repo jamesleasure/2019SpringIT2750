@@ -1,3 +1,6 @@
+import os 
+currentPath = os.path.dirname(os.path.realpath(__file__)) + "/"
+
 def removeMatches(myString,removeString):
     newStr = ""
     for ch in myString:
@@ -27,16 +30,21 @@ def letterFrequency(text):
     
 def getFreq(t):
     return t[1]
+
+def getLetter(t):
+    return t[0]
     
 alphabet="abcdefghijklmnopqrstuvwxyz"
-f = open("wells.txt","r")
+f = open(currentPath + "wells.txt","r")
 text = f.read()
 
 lf = letterFrequency(text)
 print(lf)
 lflist = list(lf.items())
 print(lflist)
-lflist.sort(key=getFreq, reverse=True)
+#sorted(lflist)
+#lflist.sort(key=getFreq, reverse=True)
+#lflist.sort(key=getLetter, reverse=False)
 print(lflist)
 
 for entry in lflist:
