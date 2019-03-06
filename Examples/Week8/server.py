@@ -1,14 +1,8 @@
 # server.py
 
-def do_some_stuffs_with_input(input_string):  
-    """
-    This is where all the processing happens.
-
-    Let's just read the string backwards
-    """
-
-    print("Processing that nasty input!")
-    return input_string[::-1]
+def do_some_stuffs_with_input(input_string): 
+    #return input_string[::-1]
+    return "Hello back from James!"
 
 def client_thread(conn, ip, port, MAX_BUFFER_SIZE = 4096):
 
@@ -25,9 +19,9 @@ def client_thread(conn, ip, port, MAX_BUFFER_SIZE = 4096):
     # decode input and strip the end of line
     input_from_client = input_from_client_bytes.decode("utf8").rstrip()
 
-    res = do_some_stuffs_with_input(input_from_client)
-    print("Result of processing {} is: {}".format(input_from_client, res))
+    print(f"Received message from {ip}: {input_from_client}")
 
+    res = do_some_stuffs_with_input(input_from_client)
     vysl = res.encode("utf8")  # encode the result string
     conn.sendall(vysl)  # send it to client
     conn.close()  # close connection
@@ -65,9 +59,9 @@ def start_server():
         try:
             Thread(target=client_thread, args=(conn, ip, port)).start()
         except:
-            print("Terible error!")
+            print("Terrible error!")
             import traceback
             traceback.print_exc()
-    soc.close()
+    #soc.close()
 
 start_server() 
