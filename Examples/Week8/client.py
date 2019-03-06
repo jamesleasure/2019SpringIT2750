@@ -7,14 +7,14 @@ soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # 192.168.1.103 - Mike
 # 192.168.1.102 - Dylan
 
-addresses = ['192.168.1.104', '192.168.1.103', '192.168.1.102']
-names = ['1. Kelton', '2. Mike', '3. Dylan']
+addresses = ['192.168.1.104', '192.168.1.103', '192.168.1.102', '192.168.1.105']
+names = ['1. Kelton', '2. Mike', '3. Dylan', '4. James']
 
 while(True):
     sendTo = input(f"Who would you like to send to? {names}")
-    if (sendTo not in ['1', '2', '3']):
+    if (sendTo not in ['1', '2', '3', '4']):
         continue
-    sendTo = sendTo - 1
+    sendTo = int(sendTo) - 1
     soc.connect((addresses[sendTo], 12345))
     clients_input = input("Message to send: ")  
     soc.send(clients_input.encode("utf8")) # we must encode the string to bytes  
