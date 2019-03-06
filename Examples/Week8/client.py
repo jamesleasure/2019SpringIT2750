@@ -14,8 +14,11 @@ while(True):
     sendTo = input(f"Who would you like to send to? {names}")
     if (sendTo not in ['1', '2', '3', '4']):
         continue
+    port = '12345'
+
     sendTo = int(sendTo) - 1
-    soc.connect((addresses[sendTo], 12345))
+    soc.connect((addresses[sendTo], 80))
+    
     clients_input = input("Message to send: ")  
     soc.send(clients_input.encode("utf8")) # we must encode the string to bytes  
     result_bytes = soc.recv(4096) # the number means how the response can be in bytes  
